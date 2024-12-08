@@ -1,0 +1,177 @@
+﻿*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: Consolas;
+    background-image: url(image/bg.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-size: 1.5rem;
+}
+
+.navhead{
+    color: rgb(58, 255, 237);
+    text-shadow: 4px 4px black;
+    font-size:4rem;
+    margin: 0px;
+    font-family: monospace;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.80);
+    padding: 10px 20px;
+    margin-bottom: 75px;
+    flex-direction: column;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar .navlinks {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .navlinks li {
+    margin: 0 15px;
+}
+
+.navbar .navlinks a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 2rem;
+    transition: color 0.3s;
+    text-shadow: 2px 2px black;
+    padding: 10px;
+
+    float: left;
+    display: block;
+}
+
+.navbar .navlinks a:hover {
+    color: gold;
+}
+
+.navbar .logo {
+    margin-left: 10px;
+}
+
+
+.aboutme, .projects, .contact{
+    color:antiquewhite;
+    text-shadow: 2px 2px black;
+    background-color: rgb(0, 0, 0, 0.37);
+    text-align: center;
+    padding: 40px;
+    margin: 200px;
+    border-style: dotted;
+    border-color: antiquewhite;
+}
+
+#aboutmeheader, #projects, #contact{
+    padding: 20px;
+}
+
+.projects .projectlist {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects .projectlist {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(20, 99, 46, 0.70);
+    padding: 10px 20px;
+    margin-bottom: 75px;
+    flex-direction: column;
+}
+
+
+label {
+    font-size: 40px;
+}
+
+.regForm input, .regForm textarea {
+    margin: 10px 10px;
+    padding: 10px 30px;
+    color: black;
+    font-size: 15px;
+}
+
+
+
+
+#aboutmetext{
+    padding: 30px;
+}
+
+hr{
+    margin: 20px;
+    text-shadow: 2px 2px black;
+
+}
+
+.footer{
+    color: antiquewhite;
+    padding: 20px;
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+}
+
+.box-container{
+    display: flex;
+    gap: 20px;
+    position: center;
+    max-width: 800px;
+    margin: 40px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    background-color: rgb(90, 177, 145, 0.58);
+    border-style: solid;
+    border-color: black;
+    margin: 50px;
+    padding: 40px;
+}
+
+.box{
+    box-sizing: border-box;
+}
+
+img{
+    height: 300px;
+    padding:20px;
+}
+
+button {
+    background-color: forestgreen;
+    color: antiquewhite;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 20px;
+}
+
+button a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: Consolas;
+    font-size: 1rem;
+}
+
+.projectitem{
+    font-size: 4rem;
+}
